@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>New Entry</title>
+
+    <script src="dist/main.js"></script>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><p>Model Experiment Tracker</p></li>
+            <li class="right">
+                
+                <a href="index.html"><i class="fa fa-home" style="font-size:24px"></i></a>
+                <a href="form.html"><i class="fa fa-wpforms" style="font-size:24px"></i></a>
+                <a href="https://github.com/lka1459"><i class="fa fa-github" style="font-size:24px"></i></a>
+                <a href="https://www.linkedin.com/in/luka-pustahija-543ba9255"><i class="fa fa-linkedin" style="font-size:24px"></i></a>
+            
+            </li>
+            
+        </ul>
+
+    </nav>
+
+    <main>
+    <header>
+    <h1>New Entry</h1>
+    <hr>
+    </header>
+
+        <section id="form">
+            <form>
+                <div id="title_block">
+                <h2 id="form_title">Form</h2>
+                <hr>
+                </div>
+
+                <label for="pname">Project Name:</label>
+                <input type="text" class="form_item" id="pname" name="pname">
+
+                <label for="mname">Model Name:</label>
+                <input type="text" class="form_item" id="mname" name="mname">
+
+                <label for="acc">Accuracy:</label>
+                <input type="number" step="0.0001" class="form_item" id="acc" name="acc">
+
+                <label for="prec">Precision:</label>
+                <input type="number" step="0.0001" class="form_item" id="prec" name="prec">
+
+                <label for="recall">Recall:</label>
+                <input type="number" step="0.0001" class="form_item" id="recall" name="recall">
+
+                <label for="f1">F1 Score:</label>
+                <input type="number" step="0.0001" class="form_item" id="f1" name="f1">
+
+                <label for="notes">Notes:</label>
+                <textarea type="text" class="form_item" id="notes" name="notes" placeholder="Additional Notes..."></textarea>
+
+                <button type="submit">Submit Form</button>
+            </form>
+        </section>
+
+</body>
+
+</html>
