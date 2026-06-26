@@ -16,7 +16,7 @@
         <ul>
             <li><p>Model Experiment Tracker</p></li>
             <li class="right">
-                <button class="btn-close-form" onclick="togglePopup()"><p>Create new entry</p></button>
+                <button class="btn-open-form" onclick="togglePopup()"><p>Create new entry</p></button>
             </li>
             
         </ul>
@@ -31,7 +31,8 @@
 
     <section id="form_section">
             <form id="popupOverlay">
-                <button id="close_btn" onclick="togglePopup()">X</button>
+                <button id="btn-close-form" onclick="togglePopup()">X</button>
+                <div class="form_main_section">
                 <div id="title_block">
                 <h2 id="form_title">Form</h2>
                 <hr>
@@ -59,12 +60,15 @@
                 <textarea type="text" class="form_item" id="notes" name="notes" placeholder="Additional Notes..."></textarea>
 
                 <button id="submit_btn" type="submit">Submit Form</button>
+                </div>
             </form>
         </section>
 
     <section class="container">
 
         <div class="block">
+        
+
             <p class="block_text">Higher</p>
 
         </div>
